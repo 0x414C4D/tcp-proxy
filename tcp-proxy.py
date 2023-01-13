@@ -149,7 +149,7 @@ def main():
 
     #Tells to our proxy to connect and recaive data 
     #before sending to remote host
-    receive_first = sys.arv[5]
+    receive_first = sys.argv[5]
 
     if "True" in receive_first:
         receive_first = True
